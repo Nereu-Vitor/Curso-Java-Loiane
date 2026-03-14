@@ -27,6 +27,6 @@ public class Ex02 {
                 infoValidas = true;
             }
         
-        } while (!infoValidas);
+        } while (!infoValidas);        
     }
 }
