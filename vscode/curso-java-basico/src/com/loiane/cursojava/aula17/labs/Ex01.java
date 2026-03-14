@@ -21,6 +21,6 @@ public class Ex01 {
                 System.out.println("Nota Inválida, digite novamente!");
             }
 
-        } while (!notaValida);
+        } while (!notaValida);    
     }
 }
