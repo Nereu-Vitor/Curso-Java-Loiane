@@ -22,4 +22,18 @@ public class Calculadora {
         return Math.pow(num1, num2);
     }
 
+    public static long calcularFatorial(int num) {
+
+        if (num == 0) {
+            return 1;
+        } 
+
+        long total = 1;
+        for (int i = num; i > 1; i--) {
+            total *= i;
+        }
+
+        return total;
+    }
+
 }
